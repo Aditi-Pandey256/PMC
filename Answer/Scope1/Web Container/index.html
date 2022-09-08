@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+<style>
+.mar{
+margin-top:200px;
+}
+.form{
+margin-top:20px;
+}
+
+</style>
+</head>
+<body>
+<center>
+<div class ="mar"><b>Registration Form</b>
+</div>		
+	<form class ="form" method="get" action="read">
+	<table>
+		<tr>
+		<td> Name </td>
+		<td> <input type="text" name="name"></td>
+		</tr>
+		<tr>
+		<td> DOB </td>
+		<td> <input type="date" name="dob"></td>	
+		</tr>
+		<tr>
+		<td> Gender </td>
+		<td> <input type="radio" name="gender" value="male">Male
+			 <input type="radio" name="gender" value="female">Female
+		</td>
+		</tr>
+		<tr>
+		<td> Qualification </td>
+		<td> 
+		<select name ="qlfy">
+		<option value="" selected ="selected" hidden> Select </option>
+		<option value ="B.Tech"> B.Tech </option> 
+		<option value ="B.Com"> B.Com </option> 
+		<option value ="B.A"> B.A </option> 
+		<option value ="Medico"> Medico </option> 
+		</select>
+		</td>
+		</tr>
+		<tr>
+		<td> <button type="submit"> Submit </button></td>
+		<td> <button type="reset"> Reset</button></td>
+
+		</tr>
+
+	</table>
+	</form>
+</center>
+</body>
+</html>
